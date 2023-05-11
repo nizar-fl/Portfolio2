@@ -6,7 +6,7 @@ export default function Mainblock() {
   const Navigate = useNavigate()
   return (
     <div className='mainContainer'>
-        <div className="block" >
+        <div className="block" onClick={()=>{Navigate("/presentation-personnelle")}}>
             <img src="https://content.app-sources.com/s/59331098935990817/thumbnails/640x480/Images/undraw_close_tab_re_4cj6-3288072.svg" alt="presentation"  />
             <p className="blocktitle">Présentation personnelle</p>
             <div className="smalldivider"></div>
