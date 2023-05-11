@@ -1,0 +1,324 @@
+
+
+@media screen and (max-width: 767px){
+
+    .formContainer{
+        width: 90%;
+        min-width: 280px;
+        min-height: 300px;
+        background-color: rgb(255, 254, 253);
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 3vh;
+        line-height: 27px;
+        border-radius: 12px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+    .formTitle{
+        padding-top: 10px;
+        font-size: 160%;
+        margin-bottom: 2vh;
+    }
+    .input:focus{
+        outline: none;
+        
+    }
+    .input{
+        margin-top: 5px;
+        border-radius: 37px;
+        font-size: 16px;
+        width: 100%;
+        padding: 10px;
+        height: 7vh;
+        border: 1px solid rgb(205, 205, 205);
+    }
+    .formfield{
+        padding-top: 5px;
+    }
+    .commentairesinput{
+        min-height: 70px;
+    }
+    .submitbtn{
+        margin-top: 15px;
+        margin-bottom: 40px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border-radius: 37px;
+        width: 100%;
+        background-color: rgb(57, 163, 255);
+        border: none;
+        color: white;
+        font-size: large;
+        
+    }
+    
+.introductionvotreAvis{
+    background-color: #4EB3EA;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    padding-left: 13%;
+    padding-right: 13%;
+    padding-top: 55px;
+    padding-bottom: 30px;
+}
+.votreavismaintitle{
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 50px;
+}
+.maindescreption{
+    color: rgba(255, 255, 255, 0.745);
+    font-size: large;
+}
+.votreAvisImage{
+    width: 80%;
+}
+.imgandFormContainer{
+    padding-top: 50px;
+    padding-left: 13%;
+    padding-right: 13%;
+    display: grid;
+    grid-template-rows: 1fr 1.5fr;
+}
+.formMainContainer{
+    position: relative;
+}
+
+
+
+}
+
+
+@media screen and (min-width: 768px){
+    .formComponentContainer{
+        position: absolute;
+        top: 100px;
+        right: 100px;
+    }
+    
+    .formContainer{
+        width: 30vw;
+        min-width: 200px;
+        min-height: 300px;
+        background-color: rgb(255, 254, 253);
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 3vh;
+        line-height: 27px;
+        border-radius: 12px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+    .formTitle{
+        padding-top: 10px;
+        font-size: 160%;
+        margin-bottom: 2vh;
+    }
+    .input:focus{
+        outline: none;
+        
+    }
+    .input{
+        margin-top: 5px;
+        border-radius: 37px;
+        font-size: 16px;
+        width: 100%;
+        padding: 10px;
+        height: 7vh;
+        border: 1px solid rgb(205, 205, 205);
+    }
+    .formfield{
+        padding-top: 5px;
+    }
+    .commentairesinput{
+        min-height: 70px;
+    }
+    .submitbtn{
+        margin-top: 15px;
+        margin-bottom: 40px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border-radius: 37px;
+        width: 100%;
+        background-color: rgb(57, 163, 255);
+        border: none;
+        color: white;
+        font-size: large;
+        
+    }
+    
+.introductionvotreAvis{
+    background-color: #4EB3EA;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    padding-left: 13%;
+    padding-right: 13%;
+    padding-top: 55px;
+    padding-bottom: 30px;
+}
+.votreavismaintitle{
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 50px;
+}
+.maindescreption{
+    color: rgba(255, 255, 255, 0.745);
+    font-size: large;
+}
+.votreAvisImage{
+    width: 80%;
+}
+.imgandFormContainer{
+    padding-top: 50px;
+    padding-left: 13%;
+    padding-right: 13%;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+}
+.formMainContainer{
+    position: relative;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+.maindescreption {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    }
+    @-webkit-keyframes fadeInUp {
+    0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+    }
+    100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+    }
+    }
+    @keyframes fadeInUp {
+    0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+    }
+    100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+    }
+} 
+.votreavismaintitle {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    }
+    @-webkit-keyframes fadeInUp {
+    0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+    }
+    100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+    }
+    }
+    @keyframes fadeInUp {
+    0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+    }
+    100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+    }
+} 
+  
+    .votreAvisImage {
+        -webkit-animation-name: fadeInDown;
+        animation-name: fadeInDown;
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+        }
+        @-webkit-keyframes fadeInDown {
+        0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0);
+        }
+        100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+        }
+        }
+        @keyframes fadeInDown {
+        0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0);
+        }
+        100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+        }
+        } 
+        .formComponentContainer {
+            -webkit-animation-name: fadeInRight;
+            animation-name: fadeInRight;
+            -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+            }
+            @-webkit-keyframes fadeInRight {
+            0% {
+            opacity: 0;
+            -webkit-transform: translate3d(100%, 0, 0);
+            transform: translate3d(100%, 0, 0);
+            }
+            100% {
+            opacity: 1;
+            -webkit-transform: none;
+            transform: none;
+            }
+            }
+            @keyframes fadeInRight {
+            0% {
+            opacity: 0;
+            -webkit-transform: translate3d(100%, 0, 0);
+            transform: translate3d(100%, 0, 0);
+            }
+            100% {
+            opacity: 1;
+            -webkit-transform: none;
+            transform: none;
+            }
+            } 

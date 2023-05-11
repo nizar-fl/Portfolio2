@@ -1,0 +1,271 @@
+
+
+
+@media screen and (max-width: 767px){
+    .selfpresentation{
+        width: 100%;
+        padding-left: 13%;
+        padding-right: 13%;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        padding-top: 100px;
+        column-gap: 10px;
+        justify-content: center;
+        background-color: #f2f3f7;
+        padding-bottom: 100px;
+    }
+    .selfpresentation>img{
+        width: 100%;
+        height: auto;
+        border: 5px solid rgb(67, 67, 67);
+        aspect-ratio : 1 / 1;
+    }
+    
+    .achievement{
+        display: flex;
+        row-gap: 10px;
+    }
+    .selfpresentationtitle{
+        font-family: Lato, arial;
+        line-height: 1em;
+        font-size: 45px;
+        color: #1b5697;
+        letter-spacing: normal;
+        font-weight: 750;
+        margin-bottom: 60px;
+    }
+    .achievements{
+        display: flex;
+        flex-direction: column;
+        column-gap: 15px;
+    }
+    .achievement{
+        display: flex;
+        
+    }
+    .achievement >p {
+        font-size: larger;
+    }
+
+
+    /* second blockkkkk */
+    .secondblock{
+    
+        margin-top: 80px;
+    }
+    .secondblocktitle{
+        font-size: 48px;
+        font-weight: 700;
+        color: #1b5697;
+        text-align: center;
+    
+    }
+    .secondblockdescription{
+        text-align: center;
+        color: #686868;
+        font-size: large;
+        margin-bottom: 50px;
+    }
+    .undersecondblock{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        padding-left: 20%;
+        padding-right: 20%;
+        
+    }
+    .secondachievemen{
+        display: flex;
+    }
+    .gridbox{
+        display: grid;
+        grid-template-columns: 10% 90%;
+        column-gap: 10px;
+    }
+    .secondblockrightblock{
+        width: 100%;
+        border: 2px solid rgb(92, 92, 92);
+        padding: 15px;
+        padding-top: 20px;
+    }
+    .secondblockleftblock{
+        width: 100%;
+        border: 2px solid rgb(92, 92, 92);
+        padding: 20px;
+        padding: 15px;
+        padding-top: 20px;
+        height: min-content;
+        
+    }
+    .secondachievement{
+        display: flex;
+        flex-direction: column;
+    }
+    .achievementseconddes{
+        color: black;
+        font-size: 22px;
+        font-weight: 450;
+        line-height: 22px;
+    
+    }
+
+    /* third blockkkk */
+    .third-under-block{
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        padding-left: 13%;
+        padding-right: 13%;
+        row-gap: 10px;
+        margin-top: 40px;
+    }
+    .miniblock{
+        text-align: center;
+        border: 3px solid rgb(69, 69, 69);
+        padding: 30px;
+        min-height: 400px;
+    
+    }
+    .miniblock > img {
+        width: 85%;
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+        margin-bottom: 30px;
+    }
+    
+}
+@media screen and (min-width: 768px){
+    .selfpresentation{
+        width: 100%;
+        padding-left: 13%;
+        padding-right: 13%;
+        display: grid;
+        grid-template-columns: 1.4fr 1fr;
+        padding-top: 100px;
+        column-gap: 10px;
+        background-color: #f2f3f7;
+        padding-bottom: 100px;
+    }
+    .selfpresentation>img{
+        width: 100%;
+        height: auto;
+        border: 5px solid rgb(67, 67, 67);
+        aspect-ratio : 1 / 1;
+    }
+    .selfpresentationParagraph{
+        padding-left: 90px;
+        padding-top: 70px;
+    }
+    .achievement{
+        display: flex;
+        row-gap: 10px;
+    }
+    .selfpresentationtitle{
+        font-family: Lato, arial;
+        line-height: 1em;
+        font-size: 47px;
+        color: #1b5697;
+        letter-spacing: normal;
+        font-weight: 790;
+        margin-bottom: 60px;
+    }
+    .achievements{
+        display: flex;
+        flex-direction: column;
+        column-gap: 15px;
+    }
+    .achievement{
+        display: flex;    
+    }
+    .achievement >p {
+        font-size: larger;
+    }
+
+
+
+
+
+    /* second blockkkkkkkkkkkkkkkkkkkk */
+    .secondblock{
+    
+        margin-top: 80px;
+    }
+    .secondblocktitle{
+        font-size: 48px;
+        font-weight: 700;
+        color: #1b5697;
+        text-align: center;
+    
+    }
+    .secondblockdescription{
+        text-align: center;
+        color: #686868;
+        font-size: large;
+        margin-bottom: 50px;
+    }
+    .undersecondblock{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-left: 20%;
+        padding-right: 20%;
+        
+    }
+    .secondachievemen{
+        display: flex;
+    }
+    .gridbox{
+        display: grid;
+        grid-template-columns: 10% 90%;
+        column-gap: 10px;
+    }
+    .secondblockrightblock{
+        width: 100%;
+        border: 2px solid rgb(92, 92, 92);
+        padding: 50px;
+        padding-top: 60px;
+    }
+    .secondblockleftblock{
+        width: 100%;
+        border: 2px solid rgb(92, 92, 92);
+        padding: 20px;
+        padding: 50px;
+        padding-top: 60px;
+        
+    }
+    .secondachievement{
+        display: flex;
+        flex-direction: column;
+    }
+    .achievementseconddes{
+        color: black;
+        font-size: 22px;
+        font-weight: 450;
+        line-height: 22px;
+    
+    }
+    /* third blockkkkkkkkkkkkkkkk */
+
+
+
+    .third-under-block{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding-left: 13%;
+        padding-right: 13%;
+        column-gap: 10px;
+        margin-top: 40px;
+    }
+    .miniblock{
+        text-align: center;
+        border: 3px solid rgb(69, 69, 69);
+        padding: 30px;
+        min-height: 400px;
+    
+    }
+    .miniblock > img {
+        width: 85%;
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+        margin-bottom: 30px;
+    }
+    
+}
+
+
+

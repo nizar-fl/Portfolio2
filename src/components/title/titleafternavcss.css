@@ -1,0 +1,65 @@
+.afterNavContainer{
+    height: 35vh;
+    background-color: #333943;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    
+    overflow: hidden;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.smallDescription{
+    width: 60%;
+    text-align: center;
+    color: rgb(156, 156, 156);
+}
+.title{
+    color: white;
+    font-size:60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.afternavmaincontainer{
+    position: relative;
+}
+.roundedge{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+/* bounceupp */
+.title {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    }
+    @-webkit-keyframes fadeInUp {
+    0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+    }
+    100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+    }
+    }
+    @keyframes fadeInUp {
+    0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+    }
+    100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+    }
+    } 
+  

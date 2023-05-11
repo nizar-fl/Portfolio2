@@ -1,0 +1,230 @@
+
+@media screen and (max-width: 767px) {
+  .navbarcontainer{
+    background-color: #333943 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top:10px;
+    position: relative;
+  }
+  .logoimg{
+    width: 100px;
+    height: 100px;
+    
+    
+  }
+  .toplinksContainer{
+    display: none;
+  }
+  .menuContainer{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+
+  }
+  .darkbgcolor{
+    background-color: #333943;
+  }
+  .offcanvas-title{
+    color: white;
+  }
+  .offcanvasClosebtn{
+    background-color: #333943;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid white;
+  }
+  .offcanvasLinksContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding-top: 16px;
+    padding-left: 15px;
+    
+
+    
+  }
+  .offcanvasLinksContainer > a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 23px;
+    font-weight: 500;
+
+  }
+  .phonemenu{
+    width: 40px;
+    height: 40px;
+    background-color: #333943;
+    border-radius: 50%;
+    padding: auto;
+    border: 1px solid white;
+}
+.navbtn{
+  height: 57px;
+  width: 143px;
+  background-color: #4eb3ea;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: none;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+  
+}
+
+@media screen and (min-width: 768px) {
+  .menuContainer{
+  display: none;
+  }
+  .tooltip {
+  position: relative;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+  }
+  .tooltip:hover::before {
+  content: attr(data-options);
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1;
+  background: white;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+  .tooltip:hover::before a {
+  display: block;
+  margin-bottom: 5px;
+  
+  text-decoration: none;
+  }
+  .tooltip:hover::before a:hover {
+  text-decoration: underline;
+  }
+  .navbarcontainer{
+  background-color: #333943 ;
+  display: flex;
+  align-items: center;
+  padding-left: 13%;
+  padding-right: 13%;
+  justify-content: space-between;
+  padding-top:10px;
+  }
+  .logoimg{
+  width: 110px;
+  }
+  .toplinksContainer{
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  }
+  .toplinksContainer >a {
+  color: white;
+  text-decoration: none;
+  position: relative;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+
+
+  }
+  .tooltipbtn{
+    color: white;
+    text-decoration: none;
+    
+    position: relative;
+    margin-bottom: auto;
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+    margin-top:auto;
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+  }
+  .tooltipbtn::before{
+      content: "";
+      position: absolute;
+      bottom: -10px; 
+      right: 100%;
+      width: 0;
+      height: 2px;
+      text-align: center;
+      color: #4eb3ea ;
+      background-color: #4eb3ea ;
+      transition: width 0.3s ease-in-out, right 0.3s ease-in-out;
+      transform-origin: right bottom;
+      transform: scaleX(0);
+      
+
+  }
+  .tooltipbtn:hover{
+      color: #4eb3ea;
+  }
+  .tooltipbtn:hover::before{
+    width: 60%;
+    right: 20%;
+      transform: scaleX(1);
+
+  }
+  .toplinksContainer >a::before{
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  right: 100%;
+  width: 0;
+  height: 2px;
+  background-color: #4eb3ea ;
+  transition: width 0.3s ease-in-out, right 0.3s ease-in-out;
+  transform-origin: right bottom;
+  transform: scaleX(0);
+  }
+  .toplinksContainer >a:hover{
+  color: #4eb3ea;
+  }
+  .toplinksContainer >a:hover::before{
+  width: 60%;
+  right: 20%;
+  transform: scaleX(1);
+  }
+
+  .tooltipInsideLinks>a{
+  text-decoration: none;
+  color:#484d56;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  }
+  .tooltipInsideLinks{
+  margin-top: 10px;
+  margin-bottom: 8px;
+  }
+
+  .tooltipInsideLinks>a:hover{
+  color: #4eb3ea;
+  border: #4eb3ea;
+
+  }
+  .navbtn{
+    height: 57px;
+    width: 143px;
+    background-color: #4eb3ea;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    color: white;
+  }
+}
+
+
+
+  
+
+
+
+  

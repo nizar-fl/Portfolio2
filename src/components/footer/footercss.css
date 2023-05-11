@@ -1,0 +1,112 @@
+
+.leftBlock{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.leftBlock >a > img{
+    width: 120px;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+.leftBlock >a > img:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+.socialmediasbtns{
+    width: 40px;
+    height: auto;
+    border: none;
+    background-color: transparent;
+    padding: 7px;
+}
+.socialmediasbtns:hover{
+    background-color: rgb(112, 112, 112);
+
+}
+.rotarylogo{
+    width: 150px;
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 10px;
+
+}
+.rightBlock{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.leftblocktitle{
+    color: rgb(51, 51, 51);
+    font-size: large;
+    font-weight: 500;
+}
+.seperatingline{
+    background-color: #d0d8e7;
+    width: 80%;
+    margin-right: auto;
+    height: 2px;
+    margin-bottom: 10px;
+}
+.rightBlock> a{
+    text-decoration: none;
+    color: #6A6A6A;
+}
+.rightBlock> a:hover{
+    text-decoration: none;
+    color: #4eb3ea;
+}
+
+
+@media screen and (min-width: 768px){
+    .blocksConatiner{
+        margin-top: 200px;
+        background-color: #e8ebf1;
+        padding-left: 13%;
+        padding-right: 13%;
+        position: relative;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 30px;
+        justify-content: center;
+    
+    }
+    .wavyedge{
+        position: absolute;
+        top: -6.5vh;
+        right: 0px;
+    }
+
+}
+@media screen and (max-width: 767px){
+    .blocksConatiner{
+        margin-top: 200px;
+        background-color: #e8ebf1;
+        padding-left: 13%;
+        padding-right: 13%; 
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        column-gap: 30px;
+        position: relative;
+    
+    }
+    .wavyedge{
+        position: absolute;
+        top: -2%;
+        right: 0px;
+    }
+}
+.copyrightContainer{
+    background-color: #333943;
+    padding-left: 13%;
+    height: auto;
+    
+    color: #9b9b9b;
+    padding-top: 2vh;
+    padding-bottom: 0.5vh;
+}
+.copyrightContainer>a{
+    margin-top: 8px;
+}
+
+
