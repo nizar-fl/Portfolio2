@@ -55,22 +55,22 @@ export default function PPersonnelle() {
                         <div className='gridbox'>
                             <img style={{width:"25px",marginRight:"20px",marginTop:"18px"}} src={checkMarkIcon} alt="" />
                             <div>
-                                <p className='achievementseconddes'>Trésorier 2022-2023</p>
-                                <p className='achievementsecondunderdes'>après l'expérience au bureau élargi j'ai Monti vers l'exécutif en étant le trésorier de mandat 2022-2023</p>
+                                <p className='achievementseconddes'>Trésorier adjoint 2021-2022</p>
+                                <p className='achievementsecondunderdes'>après le succès de l'action hivers au chaud . ma décision est prise de postuler puis d'être le trésorier adjoint de mandat 2021-2022</p>
                             </div>
                         </div>
                         
                     </div> 
                 </div>
                 <div className='secondblockleftblock'>
-                <div className='gridbox'>
-                            <img style={{width:"25px",marginRight:"20px",marginTop:"18px"}} src={checkMarkIcon} alt="" />
-                            <div>
-                                <p className='achievementseconddes'>Trésorier adjoint 2021-2022</p>
-                                <p className='achievementsecondunderdes'>après le succès de l'action hivers au chaud . ma décision est prise de postuler puis d'être le trésorier adjoint de mandat 2021-2022</p>
-                            </div>
+                    <div className='gridbox'>
+                        <img style={{width:"25px",marginRight:"20px",marginTop:"18px"}} src={checkMarkIcon} alt="" />
+                        <div>
+                            <p className='achievementseconddes'>Trésorier 2022-2023</p>
+                            <p className='achievementsecondunderdes'>après l'expérience au bureau élargi j'ai Monti vers l'exécutif en étant le trésorier de mandat 2022-2023</p>
                         </div>
-
+                    </div>
+    
                 </div>
             </div>
         </div>
