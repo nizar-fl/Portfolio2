@@ -6,7 +6,7 @@ export default function Mainblock() {
   const Navigate = useNavigate()
   return (
     <div className='mainContainer'>
-        <div className="block" onClick={()=>{Navigate("/presentation-personnelle")}}>
+        <div className="block" >
             <img src="https://content.app-sources.com/s/59331098935990817/thumbnails/640x480/Images/undraw_close_tab_re_4cj6-3288072.svg" alt="presentation"  />
             <p className="blocktitle">Présentation personnelle</p>
             <div className="smalldivider"></div>
@@ -20,8 +20,7 @@ export default function Mainblock() {
         </div>
         <div className="block" onClick={()=>{Navigate("/stratégies-et-objectifs")}}>
             <img src="https://content.app-sources.com/s/59331098935990817/uploads/Images/undraw_predictive_analytics_re_wxt8-3288570.svg" alt="presentation"  />
-            <p className="blocktitle">Stratégies et objectifs
-</p>
+            <p className="blocktitle">Stratégies et objectifs</p>
             <div className="smalldivider"></div>
             <p className="blockdescreption">Mes stratégies de travail accompagnée de mes objectifs</p>
         </div>
