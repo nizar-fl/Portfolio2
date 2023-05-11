@@ -14,8 +14,7 @@ export default function Relationsite() {
                 <h3 className='secondblocktitle'>Paiement en ligne</h3>
                 <br />
                 <br />
-                <p >La mission digitalisation a pour objectif de faciliter les procédures traditionnelles et les rendre plus rapides et plus efficaces . C'est pourcela que je propose une nouvelle option au sein  qui permettera d'effectuer  le payement des frais de participations aux séminaires . Ceci rendra alors cette tâche plus dynamique .
-zidha paiement en ligne</p>
+                <p >La mission digitalisation a pour objectif de faciliter les procédures traditionnelles et les rendre plus rapides et plus efficaces . C'est pourcela que je propose une nouvelle option au sein  qui permettera d'effectuer  le payement des frais de participations aux séminaires . Ceci rendra alors cette tâche plus dynamique .</p>
             </div>
             <img src="https://content.app-sources.com/s/59331098935990817/uploads/Images/paiement_4.0-3364041.png" alt="" />
         </div>
