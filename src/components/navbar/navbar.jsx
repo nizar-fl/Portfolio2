@@ -83,7 +83,7 @@ export default function Navbar() {
            <a href="/stratégies-et-objectifs"><button className='tooltipbtn'>Strategies et objectifs </button></a>
         </HtmlTooltip>  
 
-        <a href='/pourqoi-moi'>pourquoi moi ?</a>
+        <a href='/pourqoi-moi'>Pourquoi moi ?</a>
         <a href="/votre-avis"><button className='navbtn'>Votre avis</button></a>
 
       </div>

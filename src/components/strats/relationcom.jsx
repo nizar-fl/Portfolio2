@@ -7,6 +7,9 @@ export default function Relationcom() {
   return (
     <div> 
         <TitleAftetNav title="En relation avec le comité"/>
+        <div className='CC'>
+
+        
         <div className='mainContainer1'>
             
             <div className="block1 ">
@@ -29,6 +32,7 @@ export default function Relationcom() {
             </div>
         </div>
         <a href="/pourqoi-moi"><Linkbutton title="Pourquoi moi"/></a>
+        </div>
     </div>
   )
 }
